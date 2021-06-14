@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Test connection name",
+    "host": "localhost",
+    "port": 6379,
+    "password": "Pa$$w0rd",
+    "sshTunnel": {
+      "host": "ssh host",
+      "user": "myuser",
+      "password": "myPassword",
+      "port": 22
+    }
+  },
+  {
+    "name": "Test connection name2 1234 5678 9123 4567 8901 2345 6789",
+    "host": "localhost2",
+    "port": 6380,
+    "password": "Pa$$w0rd2"
+  },
+  {
+    "name": "Test connection name3",
+    "host": "localhost3",
+    "port": 6381,
+    "password": "Pa$$w0rd3"
+  }
+  ,
+  {
+    "name": "Test connection name4",
+    "host": "localhost3",
+    "port": 6381,
+    "password": "Pa$$w0rd3"
+  }
+  ,
+  {
+    "name": "Test connection name5",
+    "host": "localhost3",
+    "port": 6381,
+    "password": "Pa$$w0rd3"
+  }
+  ,
+  {
+    "name": "Test connection name6",
+    "host": "localhost3",
+    "port": 6381,
+    "password": "Pa$$w0rd3"
+  }
+  ,
+  {
+    "name": "Test connection name7",
+    "host": "localhost3",
+    "port": 6381,
+    "password": "Pa$$w0rd3"
+  }
+  ,
+  {
+    "name": "Test connection name8",
+    "host": "localhost3",
+    "port": 6381,
+    "password": "Pa$$w0rd3"
+  }
+  ,
+  {
+    "name": "Test connection name9",
+    "host": "localhost3",
+    "port": 6381,
+    "password": "Pa$$w0rd3"
+  }
+]
