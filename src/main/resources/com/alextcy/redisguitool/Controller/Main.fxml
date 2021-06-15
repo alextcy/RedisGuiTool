@@ -1,15 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="com.alextcy.redisguitool.Controller.MainController">
-   <children>
-      <Label layoutX="57.0" layoutY="39.0" text="Main Controller" />
-      <TextField layoutX="200.0" layoutY="35.0" />
-      <Button fx:id="connectButton" layoutX="405.0" layoutY="35.0" mnemonicParsing="false" onAction="#onConnectAction" text="Connect" />
-   </children>
-</AnchorPane>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0"
+            xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.alextcy.redisguitool.Controller.MainController"
+            stylesheets="@../css/main.css">
+   <top>
+      <ToolBar prefHeight="50.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+        <items>
+          <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="117.0" text="Add host">
+               <graphic>
+                  <FontIcon iconLiteral="bi-bookmark-plus" iconSize="24" />
+               </graphic>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+        </items>
+      </ToolBar>
+   </top>
+   <center>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <top>
+            <Label alignment="TOP_LEFT" prefHeight="18.0" prefWidth="58.0" text="Hosts" BorderPane.alignment="TOP_LEFT">
+               <font>
+                  <Font name="Verdana Bold" size="13.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets bottom="10.0" left="10.0" top="10.0" />
+               </BorderPane.margin>
+            </Label>
+         </top>
+         <center>
+            <ListView fx:id="connectionConfigListView" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: red;" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </center>
+</BorderPane>

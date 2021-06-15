@@ -9,6 +9,6 @@ module com.alextcy.redisguitool {
     exports com.alextcy.redisguitool;
     
     opens com.alextcy.redisguitool.Controller to javafx.fxml;
-//    opens com.alextcy.redisguitool.ViewModel to javafx.fxml;
-//    opens com.alextcy.redisguitool.Model to com.google.gson;
+    opens com.alextcy.redisguitool.ViewModel to javafx.fxml;
+    opens com.alextcy.redisguitool.Model to com.google.gson;
 }

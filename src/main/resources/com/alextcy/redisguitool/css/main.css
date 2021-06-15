@@ -1,0 +1,46 @@
+/* disable borders */
+.split-pane:horizontal > .split-pane-divider {
+    -fx-background-color: transparent;
+
+    -fx-padding: 0 0 0 0;
+}
+
+.list-view, .split-pane {
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+/*.list-cell:even,
+.list-cell:odd {
+    -fx-background-color: transparent;
+}
+
+.list-cell:selected {
+    -fx-background-color: red;
+}
+ */
+#connectionConfigListView .list-cell:even,
+#connectionConfigListView .list-cell:odd {
+    /*-fx-background-color: transparent;*/
+    -fx-background-color: #f5f5f4;
+}
+
+#connectionConfigListView .list-cell:selected {
+    -fx-background-color: #dcdfe1;
+}
+
+#connectionConfigListView .list-cell:hover {
+    -fx-background-color: #ccccff;
+}
+
+/*This will hide empty cell's.*/
+#connectionConfigListView .list-cell:empty {
+    -fx-opacity: 0;
+}
+
+#connectionConfigListView .list-cell .label {
+    /*-fx-font-family: Tahoma;*/
+    /*-fx-font-smoothing-type: gray;*/
+    -fx-font-size: 16px;
+    -fx-text-fill: #414141;
+}
