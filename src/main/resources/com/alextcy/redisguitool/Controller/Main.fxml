@@ -9,14 +9,11 @@
 <?import javafx.scene.text.Font?>
 <?import org.kordamp.ikonli.javafx.FontIcon?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0"
-            xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="com.alextcy.redisguitool.Controller.MainController"
-            stylesheets="@../css/main.css">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.alextcy.redisguitool.Controller.MainController">
    <top>
       <ToolBar prefHeight="50.0" prefWidth="600.0" BorderPane.alignment="CENTER">
         <items>
-          <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="117.0" text="Add host">
+          <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="117.0" text="Add host" onAction="#onAddConnectionConfigDialog" >
                <graphic>
                   <FontIcon iconLiteral="bi-bookmark-plus" iconSize="24" />
                </graphic>

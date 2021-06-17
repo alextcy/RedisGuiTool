@@ -22,47 +22,59 @@
     "host": "localhost3",
     "port": 6381,
     "password": "Pa$$w0rd3"
-  }
-  ,
+  },
   {
     "name": "Test connection name4",
     "host": "localhost3",
     "port": 6381,
     "password": "Pa$$w0rd3"
-  }
-  ,
+  },
   {
     "name": "Test connection name5",
     "host": "localhost3",
     "port": 6381,
     "password": "Pa$$w0rd3"
-  }
-  ,
+  },
   {
     "name": "Test connection name6",
     "host": "localhost3",
     "port": 6381,
     "password": "Pa$$w0rd3"
-  }
-  ,
+  },
   {
     "name": "Test connection name7",
     "host": "localhost3",
     "port": 6381,
     "password": "Pa$$w0rd3"
-  }
-  ,
+  },
   {
     "name": "Test connection name8",
     "host": "localhost3",
     "port": 6381,
     "password": "Pa$$w0rd3"
-  }
-  ,
+  },
   {
     "name": "Test connection name9",
     "host": "localhost3",
     "port": 6381,
     "password": "Pa$$w0rd3"
+  },
+  {
+    "name": "My Test config",
+    "host": "localhost",
+    "port": 2222,
+    "password": "rety"
+  },
+  {
+    "name": "My test 2",
+    "host": "localhost",
+    "port": 2222,
+    "password": "sfsds",
+    "sshTunnel": {
+      "host": "localhost",
+      "user": "alex",
+      "password": "rety",
+      "port": 3333
+    }
   }
 ]
